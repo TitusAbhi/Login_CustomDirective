@@ -1,0 +1,28 @@
+<html ng-app="myApp">
+    <head lang="en">
+        <meta charset="utf-8">
+        <title> Login form </title>  
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+       
+		<script type="text/javascript" src="./lib/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="./lib/angular.js"></script>
+		<script type="text/javascript" src="./lib/angular-route.js"></script>
+
+		<script type="text/javascript" src="./app/app.js"></script>
+        <script type="text/javascript" src="./app/controllers/loginController.js"></script>
+		<script type="text/javascript" src="./app/directives/loginButton.js"></script>
+
+    </head>
+    <body ng-controller="loginController">
+      <div class="header">
+      
+     </div>
+     <div class="container">
+      <div ng-view=""></div>
+     </div>
+    <div class="footer">
+      <div class="container">
+      </div>
+    </div>   
+  </body>
+</html>
